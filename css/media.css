@@ -1,0 +1,544 @@
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+/*------- Common CSS Starts -------*/
+
+body.active { overflow: hidden; }
+.container-fluid { padding: 20px 15px; }
+.d-block-mobile { display: block; }
+.section-heading > h2 { font: 2.4rem/1.5 "Raleway-Bold"; margin-bottom: 20px; }
+.section-heading > h3 { font: 2rem/1.4 "Raleway-SemiBold"; }
+p { text-align: justify; }
+.read-more > a { padding: 10px; }
+.section-heading-ip > h1 { font-size: 3rem; }
+.section-heading-ip > p { text-align: left; }
+
+/*------- Common CSS Ends --------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #ffffff; display: block; left: 0; padding: 15px; position: -webkit-sticky; position: sticky; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 10; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > p { color: #272727; display: inline-block; font: 1.8rem/1.2 "Raleway-SemiBold"; }
+.header-logo-mobile > a > p > span { color: #7a0026; }
+
+	  /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 25px; position: relative; width: 25px; }
+.burger-menu span { background-color: #000000; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; width: 25px; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #000000; content: ""; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 25px; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s linear; -moz-transition: 0s linear; -ms-transition: 0s linear; -o-transition: 0s linear; transition: 0s linear; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background: url("../images/banner.jpg") no-repeat top/cover; display: block; height: 100%; left: 0; position: fixed; top: 0; transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 10; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); }
+.fixed-navbar-menu-mobile.active { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
+.fixed-navbar-menu-mobile-close { background-color: #f7f7f7; position: fixed; right: 0; top: 0; z-index: 10; }
+.fixed-navbar-menu-mobile-close > i { display: block; font-size: 2.4rem; height: 40px; line-height: 40px; text-align: center; width: 40px; }
+.menu-listing-mobile { left: 50%; position: fixed; text-align: center; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; z-index: 11; }
+.fixed-navbar-menu-mobile::before { background-color: #00000070; content: ""; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 10; }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li > a { color: #f7f7f7; font: 2.4rem/1.2 "Raleway-SemiBold"; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #ffeb3b; }
+.menu-listing-mobile > li > i { color: #f7f7f7; font-size: 2.4rem; padding-left: 10px; }
+.sub-menu-listing-mobile { background-color: #00000070; display: none; margin-top: 10px; padding: 15px; }
+.sub-menu-listing-mobile > li { display: block; margin-bottom: 10px; }
+.sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.sub-menu-listing-mobile > li > a { color: #f7f7f7; font: 1.6rem/1.4 "Raleway-Medium"; }
+.sub-menu-listing-mobile > li > a:hover { color: #ffeb3b; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
+  /*------- Desktop Logo and Navbar Menu Section Starts -------*/
+
+.bg-logo-navbar-menu-desktop { display: none; }
+
+	/*------- Desktop Logo and Navbar Menu Section Ends -------*/
+
+  /*------- Slider Section Starts -------*/
+  
+.bg-slider { padding: 0; }
+.banner-slick-slider-info img { height: 170px; }
+.banner-slick-slider-info p { font-size: 2.4rem; padding: 10px; }
+.banner-slick-slider .slick-prev,
+.banner-slick-slider .slick-next { height: 40px; width: 40px; }
+  
+  /*------- Slider Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-image > img { margin-bottom: 15px; }
+.about-info { padding-left: 0; }
+.about-info-ap > p:last-child { margin-bottom: 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.read-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-logo > a > p { font-size: 2rem; }
+.footer-info > p { padding-right: 0; }
+.footer-info > p:last-child,
+.quick-links-listing > li:last-child { margin-bottom: 20px; }
+.footer-heading > h3 { font-size: 2rem; }
+.footer-contact-listing > li { margin-bottom: 10px; }
+.footer-contact-listing > li > address > p { text-align: left; }
+.footer-divider { margin: 20px 0; }
+.copyright-info { font-size: 1.4rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends --------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Mission, Vision, and Values Section Starts -------*/
+
+.mission-vision-value-info > h4 { text-align: justify; }
+.mission-vision-value-info > p:last-child { margin-bottom: 20px; }
+.value-info > p:last-child { margin-bottom: 0; }
+
+  /*------- Mission, Vision, and Values Section Ends -------*/
+
+  /*------- Certificates Section Starts -------*/
+
+.bg-certificates { padding: 20px 15px 0; }
+.certificate-img > img { margin-bottom: 15px; }
+
+  /*------- Certificates Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Our Products Page Starts -------*/
+
+  /*------- Products Section Starts -------*/
+
+.bg-products-pp { padding: 20px 15px 0; }
+.row-product-all-detail-ip { border-bottom: 0; }
+.inner-products-listing-pp > li > a { margin-bottom: 10px; }
+.inner-products-listing-pp > li:last-child > a { margin-bottom: 20px; }
+.product-heading-ip > h4 { display: block; font-size: 1.8rem; margin-bottom: 15px; text-align: center; }
+.product-heading-right-ip > h4 { font-size: 1.8rem; }
+.product-detail-ip { border-left: 0; padding: 0 0 15px 0px; }
+.product-heading-not-first-ip,
+.product-detail-not-first-ip { padding-top: 0; }
+.products-listing-ip > li,
+.product-info-sec-avai-listing-ip > li { text-align: justify; }
+.read-more-tlp > a { margin-bottom: 10px; }
+.read-more-tlp > a:last-child { margin-bottom: 0; }
+.btn-download-timing-pulleys,
+.figure-product-first-image-ip { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+/*------- Our Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+  /*------- Contact Info Section Starts -------*/
+
+.box-contact-info-cp { margin-bottom: 20px; }
+.box-contact-info-cp > i { font-size: 3rem; }
+.col-contact-image-cp { display: none; }
+
+  /*------- Contact Info Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) and (orientation: landscape) {
+  
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.menu-listing-mobile { max-height: 160px; overflow-y: auto; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+  
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+body.active { overflow: hidden; }
+.container-fluid { padding: 20px 15px; }
+.d-block-mobile { display: block; }
+.section-heading > h2 { font: 2.7rem/1.5 "Raleway-Bold"; margin-bottom: 20px; }
+.section-heading > h3 { font: 2.2rem/1.4 "Raleway-SemiBold"; }
+p { text-align: justify; }
+.section-heading-ip > h1 { font-size: 3rem; }
+
+/*------- Common CSS Ends --------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #ffffff; display: block; left: 0; padding: 15px; position: -webkit-sticky; position: sticky; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 10; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > p { color: #272727; display: inline-block; font: 1.8rem/1.2 "Raleway-SemiBold"; }
+.header-logo-mobile > a > p > span { color: #7a0026; }
+
+	  /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 25px; position: relative; width: 25px; }
+.burger-menu span { background-color: #000000; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; width: 25px; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #000000; content: ""; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 25px; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s linear; -moz-transition: 0s linear; -ms-transition: 0s linear; -o-transition: 0s linear; transition: 0s linear; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background: url("../images/banner.jpg") no-repeat top/cover; display: block; height: 100%; left: 0; position: fixed; top: 0; transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 10; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); }
+.fixed-navbar-menu-mobile.active { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
+.fixed-navbar-menu-mobile-close { background-color: #f7f7f7; position: fixed; right: 0; top: 0; z-index: 10; }
+.fixed-navbar-menu-mobile-close > i { display: block; font-size: 2.4rem; height: 40px; line-height: 40px; text-align: center; width: 40px; }
+.menu-listing-mobile { left: 50%; position: fixed; text-align: center; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; z-index: 11; }
+.fixed-navbar-menu-mobile::before { background-color: #00000070; content: ""; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 10; }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li > a { color: #f7f7f7; font: 2.4rem/1.2 "Raleway-SemiBold"; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #ffeb3b; }
+.menu-listing-mobile > li > i { color: #f7f7f7; font-size: 2.4rem; padding-left: 10px; }
+.sub-menu-listing-mobile { background-color: #00000070; display: none; margin-top: 10px; padding: 15px; }
+.sub-menu-listing-mobile > li { display: block; margin-bottom: 10px; }
+.sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.sub-menu-listing-mobile > li > a { color: #f7f7f7; font: 1.6rem/1.4 "Raleway-Medium"; }
+.sub-menu-listing-mobile > li > a:hover { color: #ffeb3b; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
+  /*------- Desktop Logo and Navbar Menu Section Starts -------*/
+
+.bg-logo-navbar-menu-desktop { display: none; }
+
+	/*------- Desktop Logo and Navbar Menu Section Ends -------*/
+
+  /*------- Slider Section Starts -------*/
+  
+.bg-slider { padding: 0; }
+.banner-slick-slider-info img { height: 170px; }
+.banner-slick-slider-info p { font-size: 2.7rem; padding: 10px; }
+.banner-slick-slider .slick-prev,
+.banner-slick-slider .slick-next { height: 40px; width: 40px; }
+  
+  /*------- Slider Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-image > img { margin-bottom: 15px; }
+.about-info { padding-left: 0; }
+.about-info-ap > p:last-child { margin-bottom: 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.read-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-logo > a > p { font-size: 2.2rem; }
+.footer-info > p { padding-right: 0; }
+.footer-info > p:last-child { margin-bottom: 20px; }
+.footer-heading > h3 { font-size: 2.2rem; }
+.footer-contact-listing > li { margin-bottom: 10px; }
+.footer-divider { margin: 20px 0; }
+.copyright-info { font-size: 1.4rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends --------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Mission, Vision, and Values Section Starts -------*/
+
+.mission-vision-value-info > h4 { text-align: justify; }
+.mission-vision-value-info > p:last-child { margin-bottom: 25px; }
+.value-info > p:last-child { margin-bottom: 0; }
+
+  /*------- Mission, Vision, and Values Section Ends -------*/
+
+  /*------- Certificates Section Starts -------*/
+
+.bg-certificates { padding: 20px 15px 0; }
+
+  /*------- Certificates Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Our Products Page Starts -------*/
+
+  /*------- Products Section Starts -------*/
+
+.bg-products-pp { padding: 20px 15px 0; }
+.row-product-all-detail-ip { border-bottom: 0; }
+.inner-products-listing-pp > li > a { margin-bottom: 10px; }
+.inner-products-listing-pp > li:last-child > a { margin-bottom: 20px; }
+.product-heading-ip > h4 { display: block; font-size: 1.8rem; margin-bottom: 15px; text-align: center; }
+.product-heading-right-ip > h4 { font-size: 1.8rem; }
+.product-detail-ip { border-left: 0; padding: 0 0 15px 0px; }
+.product-heading-not-first-ip,
+.product-detail-not-first-ip { padding-top: 0; }
+.products-listing-ip > li,
+.product-info-sec-avai-listing-ip > li { text-align: justify; }
+.read-more-tlp > a { margin-bottom: 10px; }
+.read-more-tlp > a:last-child { margin-bottom: 0; }
+.btn-download-timing-pulleys{ margin-top: 0; }
+.figure-product-image-ip { margin: 0 0 20px; }
+
+  /*------- Products Section Ends -------*/
+
+/*------- Our Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+  /*------- Contact Info Section Starts -------*/
+
+.box-contact-info-cp { margin-bottom: 20px; }
+.box-contact-info-cp > i { font-size: 3rem; }
+.col-contact-image-cp { display: none; }
+
+  /*------- Contact Info Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > h2 { font: 2.7rem/1.5 "Raleway-Bold"; margin-bottom: 30px; }
+.section-heading > h3 { font: 2.2rem/1.4 "Raleway-SemiBold"; }
+p { text-align: justify; }
+.section-heading-ip > h1 { font-size: 3rem; }
+
+/*------- Common CSS Ends --------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Logo and Navbar Menu Section Starts -------*/
+
+.bg-logo-navbar-menu-desktop { padding: 0 30px; }
+.header-logo-desktop > a > p { font-size: 1.6rem; }
+.menu-listing-desktop > li { margin-right: 25px; }
+
+	/*------- Desktop Logo and Navbar Menu Section Ends -------*/
+
+  /*------- Slider Section Starts -------*/
+  
+.bg-slider { padding: 0; }
+.banner-slick-slider-info img { height: 240px; }
+.banner-slick-slider-info p { font-size: 3rem; padding: 10px; }
+  
+  /*------- Slider Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-image > img { margin-bottom: 15px; }
+.about-info { padding-left: 0; }
+.about-info-ap > p:last-child { margin-bottom: 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.read-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-logo > a > p { font-size: 2.2rem; }
+.footer-info > p { padding-right: 0; }
+.footer-info > p:last-child { margin-bottom: 30px; }
+.footer-heading > h3 { font-size: 2.2rem; }
+.footer-contact-listing > li { margin-bottom: 10px; }
+.footer-contact-listing > li > address > p { text-align: left; }
+.copyright-info { font-size: 1.4rem; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends --------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Inner Banner Section Starts -------*/
+
+.bg-inner-banner-ip { padding: 95px 15px 30px; }
+  
+  /*------- Inner Banner Section Ends -------*/
+
+  /*------- Mission, Vision, and Values Section Starts -------*/
+
+.mission-vision-value-info > h4 { text-align: justify; }
+.mission-vision-value-info > p:last-child { margin-bottom: 25px; }
+.value-info > p:last-child { margin-bottom: 0; }
+
+  /*------- Mission, Vision, and Values Section Ends -------*/
+
+  /*------- Certificates Section Starts -------*/
+
+.bg-certificates { padding: 30px 15px 10px; }
+
+  /*------- Certificates Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Our Products Page Starts -------*/
+
+  /*------- Products Section Starts -------*/
+
+.bg-products-pp { padding: 30px 15px 0; }
+.inner-products-listing-pp > li > a { margin-bottom: 10px; }
+.inner-products-listing-pp > li:last-child > a { margin-bottom: 30px; }
+.read-more-tlp > a { margin-bottom: 10px; }
+.read-more-tlp > a:last-child { margin-bottom: 0; }
+.btn-download-timing-pulleys { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+/*------- Our Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+  /*------- Contact Info Section Starts -------*/
+
+.box-contact-info-cp { margin-bottom: 20px; }
+.box-contact-info-cp > i { font-size: 3rem; }
+.col-contact-image-cp { display: none; }
+
+  /*------- Contact Info Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > h2 { margin-bottom: 30px; }
+.section-heading-ip > h1 { font-size: 3rem; }
+
+/*------- Common CSS Ends --------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Logo and Navbar Menu Section Starts -------*/
+
+.bg-logo-navbar-menu-desktop { padding: 0 30px; }
+.header-logo-desktop > a > p { font-size: 2rem; }
+
+	/*------- Desktop Logo and Navbar Menu Section Ends -------*/
+
+  /*------- Slider Section Starts -------*/
+  
+.bg-slider { padding: 0; }
+.banner-slick-slider-info img { height: 240px; }
+.banner-slick-slider-info p { font-size: 3.6rem; }
+  
+  /*------- Slider Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-image > img { margin-bottom: 15px; }
+.about-info-ap > p:last-child { margin-bottom: 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.read-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-logo > a > p { font-size: 2.2rem; }
+.footer-heading > h3 { font-size: 2.2rem; }
+.footer-contact-listing > li { margin-bottom: 10px; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends --------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Inner Banner Section Starts -------*/
+
+.bg-inner-banner-ip { padding: 95px 15px 30px; }
+  
+  /*------- Inner Banner Section Ends -------*/
+
+  /*------- Mission, Vision, and Values Section Starts -------*/
+
+.mission-vision-value-info > h4 { text-align: justify; }
+.mission-vision-value-info > p:last-child { margin-bottom: 25px; }
+.value-info > p:last-child { margin-bottom: 0; }
+
+  /*------- Mission, Vision, and Values Section Ends -------*/
+
+  /*------- Certificates Section Starts -------*/
+
+.bg-certificates { padding: 30px 15px 10px; }
+
+  /*------- Certificates Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Our Products Page Starts -------*/
+
+  /*------- Products Section Starts -------*/
+
+.inner-products-listing-pp > li > a { margin-bottom: 10px; }
+
+  /*------- Products Section Ends -------*/
+
+/*------- Our Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+  /*------- Contact Info Section Starts -------*/
+
+.bg-contact-info-cp { padding: 30px 15px 10px; }
+.box-contact-info-cp { margin-bottom: 20px; }
+.box-contact-info-cp > i { font-size: 3rem; }
+.col-contact-image-cp { display: none; }
+
+  /*------- Contact Info Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+}
