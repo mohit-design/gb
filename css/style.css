@@ -110,7 +110,6 @@ p { color: #272727; font: 1.6rem/1.7 "Raleway-Regular"; }
 .banner-slick-slider .slick-next::before {
 	content: "\f054";
 }
-.banner-slick-slider.slick-initialized .slick-slide { margin-bottom: -5px; }
   
   /*------- Slider Section Ends -------*/
 
